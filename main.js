@@ -1,3 +1,10 @@
+class Calculator {
+  add(a, b) { return a + b }
+  subtract(a, b) { return a - b };
+  divide(a, b) { return a / b };
+  multiply(a, b) { return a * b };
+}
+
 const stringLength = string => {
   if (string.length < 1 || string.length > 10) {
     throw new Error('errore in string length');
@@ -9,5 +16,6 @@ const reverseString = string => {
 }
 module.exports = {
   stringLength,
-  reverseString
+  reverseString,
+  calc: Calculator
 };
