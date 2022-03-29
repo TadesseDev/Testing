@@ -34,3 +34,9 @@ describe('calculator tester', () => {
     expect(calc.multiply(999, 1)).toBe(999);
   });
 });
+
+test('Text capitalization', () => {
+  expect(capitalize('abcd')).toBe('Abcd');
+  expect(capitalize('ABCD')).toBe('Abcd');
+  expect(capitalize('AbCd')).toBe('Abcd');
+})
