@@ -1,0 +1,23 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "Apply unit testing with jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tadesse-Alemayehu/Testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tadesse-Alemayehu/Testing/issues"
+  },
+  "homepage": "https://github.com/Tadesse-Alemayehu/Testing#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
