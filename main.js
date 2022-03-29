@@ -15,7 +15,13 @@ const reverseString = string => {
   return string.split('').reverse().join('');
 }
 
-const capitalize = string => string.capitalize();
+const capitalize = string => {
+  string = string.toLowerCase();
+  string = string.split('');
+  string[0] = string[0].toUpperCase();
+  string = string.join('');
+  return string;
+}
 module.exports = {
   stringLength,
   reverseString,
