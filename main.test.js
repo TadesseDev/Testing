@@ -40,4 +40,5 @@ test('Text capitalization', () => {
   expect(capitalize('abcd')).toBe('Abcd');
   expect(capitalize('ABCD')).toBe('Abcd');
   expect(capitalize('AbCd')).toBe('Abcd');
+  expect(capitalize('123A234b879Cd')).toBe('Abcd');
 })

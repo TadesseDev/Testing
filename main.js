@@ -16,6 +16,7 @@ const reverseString = string => {
 }
 
 const capitalize = string => {
+  string = string.replaceAll(/[0-9]/g, "");
   string = string.toLowerCase();
   string = string.split('');
   string[0] = string[0].toUpperCase();
