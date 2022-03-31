@@ -23,9 +23,9 @@ const capitalize = string => {
   string = string.join('');
   return string;
 }
-module.exports = {
+export {
   stringLength,
   reverseString,
-  calc: Calculator,
+  Calculator as calc,
   capitalize
 };

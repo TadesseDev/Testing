@@ -1,8 +1,4 @@
-const main = require('./main');
-const stringLength = main.stringLength;
-const reverseString = main.reverseString;
-const capitalize = main.capitalize;
-const calculator = main.calc;
+import { stringLength, reverseString, capitalize, calc as calculator } from './main'
 test("get string length", () => {
   expect(stringLength('abcdef')).toBe(6);
   expect(() => stringLength('')).toThrow();
